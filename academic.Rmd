@@ -5,11 +5,13 @@ output:
     toc: true
     toc_float: true
 ---
+## Edutaion
 
-Here are the two projects I did in undergraduate.
+University of Toronto (bachelor) - Applied Statistics Specialist and Economics Major
+
+## My past projects 
 
 ### Tissue and compound specificity on cancer cell lines	  
-
 * Fitted sigmoid relationships on drug doses and drug responses of each cancer cell line.
 
 * Applied the PCA, KNN and ANOVA method to test the significance level of differences of the cancer cell lines’ drug responses on different cancer types and drug compounds.  
