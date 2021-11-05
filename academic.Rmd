@@ -1,0 +1,50 @@
+---
+title: "Academic experience"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+Here are the two projects I did in undergraduate.
+
+#### Tissue and compound specificity on cancer cell lines	  
+
+* Fitted sigmoid relationships on drug doses and drug responses of each cancer cell line.
+
+* Applied the PCA, KNN and ANOVA method to test the significance level of differences of the cancer cell lines’ drug responses on different cancer types and drug compounds.  
+
+
+* Trained multinomial logistic regression models to estimate parameters for different compounds.  
+
+#### Survival analysis of painted turtles	
+
+* Using Cormack-Jolly-Seber (CJS) model to investigate the relationship between the painted turtle’s survival rate and body size.
+
+* Setting ‘gender’ as the static covariate and ‘Carapace length’ as the time-varying covariate.
+
+* Concluded that painted turtles’ survival rate increases as they grow bigger. Furthermore, for smaller turtles, the increase of their body size leads to a faster growth of their survival rate. However, for larger turtles, the increase of their body size leads to a slower growth of their survival rate.
+
+####  What might affect students smoking habits
+
+* Fit the data using logistic regression with Bayesian analysis including states and schools as random effects to investigate the factors that affect students’ smoking habits.
+
+* Set prior distributions of parameters according to the information from collaborating scientists.
+
+* Plotted the predicted probability of ever smoking from the model to investigate the interactions between age and races on students’ smoking habits.
+
+* Concluded that school has slightly higher effect on students’ smoking habit, male students are more likely to smoke than female and rural students are more likely to smoke than urban students. Also, students’ race does not have a significant influence on the effect of age on smoking. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
