@@ -11,6 +11,8 @@ navbar:
       href: mailto:<yw3773@cumc.columbia.com>
     - icon: fa-github fa-lg
       href: http://github.com/sarahyywang/
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/yan-wang-71464a211/
 output:
   html_document:
     theme: cerulean
