@@ -31,7 +31,7 @@ ny_noaa %>%
   mutate(text_label = str_c("date:", date)) %>% 
   plot_ly(x = ~snow, y = ~snwd, color = ~id, 
           type = "scatter", mode = "markers", text = ~text_label, alpha = 0.5) %>%
-  layout(title = "Snow depth vs. snow width for several weather stations")
+  layout(title = "Snow depth vs. snow fall for several weather stations")
 
 ```
 
