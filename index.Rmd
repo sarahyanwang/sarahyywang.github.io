@@ -1,5 +1,5 @@
 ---
-title: "Yan's page"
+title: "index"
 output: 
   html_document:
     toc: true
@@ -8,6 +8,8 @@ output:
 # This is Yan's personal website
 
 I'm current a first year MS student in Biostatistics in CUMC. I'm doing this awesome website cause this is my Data Science Homework. There are some of my academic experiences from the past, look it up if you are interested.
+
+Also, there is a dashboard page that I made several plots from the NOAA National Climatic Data.
 
 Here I have a super brief picture of myself.
 

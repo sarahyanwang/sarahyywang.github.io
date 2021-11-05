@@ -5,9 +5,7 @@ navbar:
   right:
     - text: "Academic"
       href: academic.html
-    - text: "Plotly"
-      href: Plotly.html
-    - text: "dashboard"
+    - text: "Dashboard"
       href: dashboard.html
     - icon: fa-envelope fa-lg
       href: mailto:<yw3773@cumc.columbia.com>

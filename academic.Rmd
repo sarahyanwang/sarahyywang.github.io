@@ -8,7 +8,7 @@ output:
 
 Here are the two projects I did in undergraduate.
 
-#### Tissue and compound specificity on cancer cell lines	  
+### Tissue and compound specificity on cancer cell lines	  
 
 * Fitted sigmoid relationships on drug doses and drug responses of each cancer cell line.
 
@@ -17,7 +17,7 @@ Here are the two projects I did in undergraduate.
 
 * Trained multinomial logistic regression models to estimate parameters for different compounds.  
 
-#### Survival analysis of painted turtles	
+### Survival analysis of painted turtles	
 
 * Using Cormack-Jolly-Seber (CJS) model to investigate the relationship between the painted turtle’s survival rate and body size.
 
@@ -25,7 +25,7 @@ Here are the two projects I did in undergraduate.
 
 * Concluded that painted turtles’ survival rate increases as they grow bigger. Furthermore, for smaller turtles, the increase of their body size leads to a faster growth of their survival rate. However, for larger turtles, the increase of their body size leads to a slower growth of their survival rate.
 
-####  What might affect students smoking habits
+###  What might affect students smoking habits
 
 * Fit the data using logistic regression with Bayesian analysis including states and schools as random effects to investigate the factors that affect students’ smoking habits.
 

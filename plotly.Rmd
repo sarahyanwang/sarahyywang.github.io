@@ -1,0 +1,59 @@
+---
+title: "plotly"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+data("ny_noaa")
+
+ny_noaa = ny_noaa %>%
+  na.omit()
+```
+
+## scatter plot
+
+```{r}
+ny_noaa %>%
+  filter(id == "USC00300023" | id == "USC00300028" | id == "USC00300055" | id == "USC00300063" | id == "USC00300085") %>%
+  sample_n(5000) %>%
+  mutate(text_label = str_c("SnowFall: mm", snow, "\nSnowDepth: ", snwd)) %>% 
+  plot_ly(x = ~snow, y = ~snwd, color = ~id, 
+          type = "scatter", mode = "markers", text = ~text_label, alpha = 0.5) %>%
+  layout(title = "Snow depth vs. snow width for several weather stations")
+
+```
+
+## boxplot
+
+```{r}
+ny_noaa %>% 
+  filter(id == "USC00300023" | id == "USC00300028" | id == "USC00300055" | id == "USC00300063" | id == "USC00300085") %>%
+  plot_ly(y = ~tmax, color = ~id, type = "box", colors = "viridis") %>% layout(title = "The boxplot of max temperature for \n several weather stations")
+
+```
+
+## barchart
+
+```{r}
+ny_noaa %>%
+  sample_n(2000) %>%
+  count(id) %>%
+  mutate(id = fct_reorder(id, n)) %>% 
+  plot_ly(x = ~id, y = ~n, color = ~id, type = "bar", colors = "viridis") %>%
+  layout(title = "The number of observations for several weather stations")
+  
+```
+
+
+
+
+
+
+
+
+
+
+
