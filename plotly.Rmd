@@ -43,7 +43,7 @@ ny_noaa %>%
   count(id) %>%
   mutate(id = fct_reorder(id, n)) %>% 
   plot_ly(x = ~id, y = ~n, color = ~id, type = "bar", colors = "viridis") %>%
-  layout(title = "The number of observations for several weather stations")
+  layout(title = "The number of observations for \n several weather stations")
   
 ```
 
